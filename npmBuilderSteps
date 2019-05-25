@@ -1,0 +1,27 @@
+-npm init
+In package.json keys like name,version,desc are imp for building node modules
+create index.js and code functionality
+create .gitignore and add "node_modules/
+*.log
+// ........
+"
+
+-npm login
+-npm publish
+
+CHANGE VERSION
+change "version" in package.json
+-npm publish
+-npm outdate	//to check if new version is available for a module
+-npm update	//update all dependencies
+
+-npm link	//link to global npm (fire this in module proj)
+-npm link module_name(fire this in temp proj)
+now u can do npm i swagarnode
+
+TEST
+change "test" in p.json to "test": "node index.test.js"
+create index.test.js which includes tests
+add into scripts [] in p.json "prepublish": "npm test"
+
+ADD README.md
